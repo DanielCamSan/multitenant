@@ -1,0 +1,22 @@
+{
+    "name": "abap-srv",
+    "engines": {
+        "node": "14.x"
+    },
+    "dependencies": {
+        "express": "latest",
+        "cfenv": "latest",
+        "body-parser": "latest",
+        "axios": "latest",
+        "qs": "latest",
+        "@sap/hdbext": "latest",
+        "uuid": "latest",
+        "@sap-cloud-sdk/core": "^1.53",
+        "@sap/xsenv": "latest",
+        "@sap/xssec": "latest",
+        "passport": "latest"
+    },
+    "scripts": {
+        "start": "node server.js"
+    }
+}
